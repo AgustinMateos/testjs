@@ -394,3 +394,124 @@
 //         alert("EL CLIENTE " + cliente3.nombre+ " TE PUEDE PAGAR "+entrada);
 //     }else{alert("nadie puede")}
 // }
+
+// ej1 function entrada(){
+//    return prompt("solicitar usuario")
+   
+// }
+
+// function procesamiento(valor){
+//     return "la entrada es " + valor
+// }
+
+// function salida(valor){
+//     alert(valor)
+// }
+
+// salida(procesamiento(entrada()))
+
+// Solicitar al usuario un (1) un número y un (1) texto. Efectuar una 
+// salida por alerta con el mensaje ingresado por cada repetición, hasta
+//  alcanzar el valor señalado por el usuario.
+
+
+// let cantidad = prompt('INGRESAR CANTIDAD DE REPETICIONES');
+// let texto    = prompt('INGRESAR TEXTO A REPETIR');
+// for (let index = 0; index < cantidad; index++) {
+//     console.log(texto);
+// }
+
+// Solicitar al usuario un (1) un número. Emplear este valor para determinar
+//  la cantidad de repeticiones, y efectuar una salida por alerta con el mensaje 
+//  “lado” en cada repetición. Pero si se alcanza un número de iteraciones mayor 
+//  que cuatro (4), cancelar el ciclo.
+
+// let solicitar=prompt("solicitar numero")
+
+// for (let index = 0; index <= solicitar; index++) {
+//      if(solicitar<=4){alert("lado"+index)}
+//      else{alert("supero la cantidad maxima")}
+// }
+
+
+//otra forma
+// let lados = prompt('INGRESAR CANTIDAD DE LADOS');
+// for (let index = 0; index < lados; index++) {
+//     if (index > 3) {
+//         break;
+//     }
+//     alert("lado");
+// }
+
+// Solicitar al usuario la carga de diez (10) 
+// alumnos de forma consecutiva.
+// Luego realizar un única salida por alerta,
+//  con el listado de alumnos registrados.
+
+// let alumnos = '';
+// for (let index = 0; index < 10; index++) {
+//     alumnos += prompt("INGRESAR NOMBRE DE ALUMNO")+"\n";
+// }
+// alert(alumnos);
+
+// Solicitar al usuario la carga de nombres de forma consecutiva, 
+//  hasta que se ingrese “Voldemort”.
+// Luego realizar un única salida por alerta, con todos los 
+// nombres ingresados.
+
+
+// let entrada=prompt("ingresar nombres")
+// let ingresados=""
+
+// while(entrada!="voldemort"){
+//     entrada+=prompt("ingresar nombres")
+//  entrada=prompt("ingresar nombres")
+// }
+
+// alert(entrada)
+
+// Solicitar al usuario la carga de nombres de forma consecutiva, hasta
+//  que se ingrese “Voldemort”.
+// Luego realizar un única salida por alerta, con todos los nombres ingresados.
+
+
+// let ingresarNombre=prompt("ingresar nombre")
+// let ingresados=""
+// do {
+//     ingresarNombre=prompt("ingresar nombre")
+//     ingresados+=ingresarNombre
+// } while (ingresarNombre!="voldemort");
+
+// alert(ingresados )
+
+
+// Solicitar al usuario un (1) número de forma consecutiva, hasta que se
+//  ingrese “ESC”. Generar una única salida compuesta por los siguientes
+//   productos, según el valor ingresado en cada ciclo:
+// “Tomate” si es 1.
+// “Papa” si es 2.
+// “Carne” si es 3.
+// “Pollo” si es 4.
+
+let entrada =  prompt("SELECCIONAR PRODUCTO DE 1 A 4");
+while (entrada != 'ESC') {
+    switch (entrada) {
+        case "1":
+            alert("Tomate");
+            break;
+        case "2":
+            alert("Papa");
+            break;
+        case "3":
+            alert("Carne");
+            break;
+        case "4":
+            alert("Pollo");
+            break;
+        default:
+            alert("Error");
+            break;
+    }
+    entrada = prompt("SELECCIONAR PRODUCTO DE 1 A 4");
+}
+
