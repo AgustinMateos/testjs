@@ -493,25 +493,73 @@
 // “Carne” si es 3.
 // “Pollo” si es 4.
 
-let entrada =  prompt("SELECCIONAR PRODUCTO DE 1 A 4");
-while (entrada != 'ESC') {
-    switch (entrada) {
-        case "1":
-            alert("Tomate");
-            break;
-        case "2":
-            alert("Papa");
-            break;
-        case "3":
-            alert("Carne");
-            break;
-        case "4":
-            alert("Pollo");
-            break;
-        default:
-            alert("Error");
-            break;
-    }
-    entrada = prompt("SELECCIONAR PRODUCTO DE 1 A 4");
-}
+// 
+
+// const nombres=[1,2,3,4,5,6,]
+
+// nombres.splice(2,2)
+// console.log(nombres)
+
+// const nombres=['juan','jorge','perez','pablo']
+
+// const eliminar=(nombre)=>{
+//     let index=nombres.indexOf(nombre)
+//     if(index!=-1){
+//         nombres.splice(index,1)
+//     }
+// }
+
+// eliminar("juan")
+// console.log(nombres)
+
+// class Producto{
+//     constructor(nombre,precio){
+//         this.nombre=nombre.toUpperCase()
+//         this.precio=parseFloat(precio)
+//     }
+//     sumarIva(){
+//         this.precio=this.precio * 1.21  
+//     }
+   
+    
+// }
+// const productos=[]
+// productos.push(new Producto("pan",12))
+// productos.push( new Producto("jamon",90))
+
+
+
+// for (const producto of productos) {
+//     producto.sumarIva()
+// }
+// console.log(productos)
+
+
+// Declarar un clase Tienda que permita registrar:
+// Nombre de la tienda.
+// Dirección de la tienda.
+// Propietario de la tienda.
+// Rubro de la tienda.
+// Luego invocar al menos tres (3) objetos usando esta clase.
+
+// class Tienda{
+//     constructor(nombre,direccion,propietario,rubro){
+//          this.nombre=nombre;
+//          this.direccion=direccion;
+//          this.propietario=propietario;
+//          this.rubro=this.rubro;
+//     }
+// }
+
+// const tienda1=new Tienda("apu","agueri","jose","dulce")
+// const tienda2=new Tienda("rulo","carranza","chito","dulce")
+// const tienda3=new Tienda("chini","soler","mateo","dulce")
+// console.log(tienda1)
+// console.log(tienda2)
+// console.log(tienda3)
+
+// Solicitar al usuario el registro de cinco (5) tiendas.
+// Emplear la clase Tienda de la actividad 1, para instanciar 
+// los objetos en función de las entradas capturadas. Generar una
+//  única salida compuesta por la información de los objetos instanciados.
 
