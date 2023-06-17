@@ -16,9 +16,12 @@
 // porCadaUno(numeros,acumulador)
 
 // console.log(total)
-function acumulador(num){
-    total+=num}
-const numeros=[1,2,3,4,5,6]
-const total=numeros.reduce((acumulador,elemento)=>acumulador + elemento,0)
 
-console.log(total)
+
+
+// function acumulador(num){
+//     total+=num}
+// const numeros=[1,2,3,4,5,6]
+// const total=numeros.reduce((acumulador,elemento)=>acumulador + elemento,0)
+
+// console.log(total)
